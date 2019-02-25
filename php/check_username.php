@@ -14,7 +14,7 @@ if($check)
 else
 {
 	//若為 null 或者 false 代表沒有使用者，可以註冊
-	echo 'yes';
+	echo 'yes';///
 }
 
 ?>
