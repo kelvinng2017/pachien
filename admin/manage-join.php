@@ -69,6 +69,7 @@
       $("#account_name").on("keyup",function(){
         //取得輸入值
         var account_name_value=$(this).val();
+        console.log(account_name_value);
         //當keyup的時候，裡面的值不是空字串的話，就檢查
         if(account_name_value!=''){
           //$.ajax 是jQuery的方法，裡面使用的是物件
