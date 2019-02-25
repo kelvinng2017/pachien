@@ -7,3 +7,14 @@ require_once 'functions.php';
 $check = check_has_username($_POST['account_name']);
 
 if($check)
+{
+	//若為true 代表有使用者以重複
+	echo 'no';
+}
+else
+{
+	//若為 null 或者 false 代表沒有使用者，可以註冊
+	echo 'yes';
+}
+
+?>
